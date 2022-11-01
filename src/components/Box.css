@@ -1,0 +1,90 @@
+.box {
+  background-color: white;
+  width: 50%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.editor {
+  display: flex;
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.groupBtn {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid #5f696f;
+  border-radius: 6px;
+  padding: 7px 14px;
+  color: #5f696f;
+  cursor: pointer;
+}
+
+.chooseImg {
+  background-color: #5f696f;
+  color: white;
+  z-index: 99;
+}
+
+.saveImg {
+  border: 1px solid #4765d0;
+  background-color: #4765d0;
+  color: white;
+}
+
+.overlay {
+  background-color: #e3f2fc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 986px) {
+  .box {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .editor {
+    flex-direction: column;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .groupBtn {
+    flex-direction: column;
+  }
+  .btn {
+    margin: 5px 0;
+  }
+  .container h1 {
+    font-size: 18px;
+  }
+}

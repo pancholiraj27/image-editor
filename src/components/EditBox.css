@@ -1,0 +1,93 @@
+.editBox {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 10px;
+}
+.editBox h2 {
+  font-size: 18px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filterBtn {
+  font-size: 14px;
+  border: 1px solid black;
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #4765d0;
+  color: white;
+  border: #4765d0;
+}
+.controller {
+  margin: 15px 0;
+}
+
+.dataDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controller input {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rotateFlip {
+  display: flex;
+  align-items: center;
+}
+
+.rotateFlip > div {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 100%;
+  margin: 5px;
+  padding: 7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 986px) {
+  .box {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .filterBtn {
+    font-size: 12px;
+  }
+  .rotateFlip > div {
+    font-size: 14px;
+  }
+  .dataDisplay {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .rotateFlip > div {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .dataDisplay {
+    font-size: 12px;
+  }
+  .editBox h2 {
+    font-size: 14px;
+  }
+}
