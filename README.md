@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Online Image Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src='https://res.cloudinary.com/pancholiraj/image/upload/v1690627449/github%20read%20me/image_editor_edotrb.jpg' alt='image editor photo' />
+The Online Image Editor is a web-based application that empowers users to edit images effortlessly. With a user-friendly interface, this editor offers a variety of essential image manipulation features, including rotation, flipping, mirroring, brightness adjustment, saturation control, inversion, grayscale conversion, and the option to download the edited image.
 
-## Available Scripts
+## Features
+<ol>
+  <li>Image Rotation</li>
+  <li>Flip and Mirror</li>
+  <li>Brighness Adjustment</li>
+  <li>Saturation Control</li>
+  <li>Inversion</li>
+  <li>Grayscale Conversion</li>
+  <li>Download Edited Image</li>
+</ol>
 
-In the project directory, you can run:
+## How to Use
+<ol>
+  <li>Visit the Online Image Editor website at https://image-editor-online.netlify.app/</li>
+  <li>Upload an image from your local device by clicking on the "Upload Image" button.</li>
+  <li>Use the provided editing tools to rotate, flip, mirror, adjust brightness, control saturation, invert colors, or convert to grayscale.</li>
+  <li>Preview the changes in real-time and fine-tune until you achieve the desired result.</li>
+  <li>Click on the "Download" button to save the edited image to your device.</li>
+</ol>
 
-### `npm start`
+## Compatibility
+The Online Image Editor is compatible with modern web browsers, ensuring a seamless experience across various devices and operating systems.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Feedback and Support
+We value your feedback! If you encounter any issues or have suggestions for improvement, please don't hesitate to contact us. Your insights help us enhance the user experience and deliver a more polished image editing tool.
